@@ -1,3 +1,16 @@
+
+does this work?
+
+    @font-face {
+        font-family: 'MyFont';
+        src: local('MyFont'), url('./OpenSans-Regular.ttf') format('truetype');
+    }
+    
+  - put OpenSans-Regular.tff in the working directory
+  - use {font-family: MyFont}
+  
+---
+
 ---
 layout: post
 title: Using TTF fonts with PhantomJS on Ubuntu
